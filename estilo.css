@@ -64,6 +64,10 @@ nav.navbar-transparent {
     padding: 5px 15px;
 }
 
+iframe{
+    margin-top: -500px;
+}
+
 .divisor {
     width: 1px;
     height: 16px;
