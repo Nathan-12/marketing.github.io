@@ -1,0 +1,213 @@
+html, body, .capa {
+    height: 100%;
+
+}
+
+body {  
+    background: url('imagens/capa.jpg') no-repeat center center;
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Conteúdos */
+
+div#conteudos {
+    width: auto;
+    height: auto;
+    display:table;
+    margin-left: -20px;
+    margin-right: -20px;
+    border: 0.8px solid #6D2177;
+}
+
+div#conteudos img {
+    width: auto;
+    height: auto;
+}
+
+div#esquerda {
+    text-align: center;
+    vertical-align:middle;
+    display:table-cell;
+
+}
+
+div#centro {
+    text-align: center;
+    vertical-align:middle;
+    display:table-cell;
+}
+
+div#direita {
+    text-align: center;
+    vertical-align:middle;
+    display:table-cell;
+}
+
+/*-- Barra de Navegação --*/
+.img-logo {
+    height: 40px;
+    width: 132px;
+    display: block;
+    background: url('imagens/logoformbranca.png') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+nav.navbar-transparent {
+    padding: 15px 0px;
+    background: rgb(0, 0, 0, 0.6);
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+.divisor {
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover   {
+    color: #6D2177;
+    background: none;
+}
+
+/*-- Imagem da Capa --*/
+
+.capa {
+    display: table;
+    width: 100%;
+}
+
+/* Quadros */
+
+#quadros {
+    /* background: #000; */
+    background: #E6E7E9;
+    
+}
+
+#quadros h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+div#quadros img { 
+    width: auto;
+    height: auto;
+}
+
+div#quadros .container {
+    padding-top: 0px;
+}
+
+/*-- Recursos --*/
+
+#servicos {
+    background: white;
+    padding-top: 0px;
+    padding-bottom: 20px; 
+}
+
+#servicos h3 {
+    padding-top: 15px;
+}
+
+#servicos h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #6D2177;
+}
+
+.espaco {
+    padding-top: 35px;
+}
+
+/*-- Tipografia --*/
+
+h1 {
+    font-size: 100px;
+    font-weight: 1000;
+    letter-spacing: -0.05em;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: black;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    color: black
+}
+
+#rodape h4 {
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.texto-preto {
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.texto-p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.texto-pe {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.texto-roxo1 {
+    color: #6D2177;
+    text-transform: uppercase;
+}
+
+.texto-roxo2 {
+    color: #6D2177;
+    text-transform: uppercase;
+}
+
+.texto-roxo3 {
+    color: #6D2177;
+    text-transform: uppercase;
+}
+
+/*-- Rodape --*/
+
+footer {
+    background: black;
+    /* background: #6D2177; */
+    padding: 50px 0px 20px 0px;   
+}
+
+.acertar-logo {
+    background-size: contain;
+    color: transparent;
+}
+
+.item-rede-social {
+    float: right;
+}
+
+
